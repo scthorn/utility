@@ -80,5 +80,5 @@ def async_detect_document(gcs_source_uri, gcs_destination_uri):
     print('Full text:\n')
     print(annotation['text'])
     
-async_detect_document("gs://lag_ocr_source/Page 2.pdf", "gs://lag_ocr_result/ ")
+async_detect_document("gs://[SOURCE_DIR]/[FILENAME].pdf", "gs://[RESULT_DIR]/ ")
 

@@ -106,7 +106,7 @@ def run_a_batch (source_bucket, destination_bucket, source_dir):
 # the folder your source files are in within the source bucket. The first two parameters will be the same every time. The third parameter gives you
 #the option of keeping your documents organized into different folders, although if you don't want to do that you can just put them all into 
 #the same folder.
-run_a_batch('lag_ocr_source', 'lag_ocr_result', 'docs')
+run_a_batch('[SOURCE_DIR]', '[RESULT_DIR]', 'docs')
   
         
 
